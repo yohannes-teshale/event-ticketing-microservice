@@ -7,6 +7,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -26,7 +27,6 @@ import static springfox.documentation.builders.PathSelectors.regex;
 @RefreshScope
 @EnableEurekaClient
 @EnableSwagger2
-
 public class UserManagementServiceApplication {
 
 	public static void main(String[] args) {

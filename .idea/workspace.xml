@@ -5,127 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81e757bc-b2a6-43db-81f0-56a2d2f4b1f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/FilterUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/RequestTraceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/ResponseTraceFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw/TrackingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/event-management-service/src/test/java/com/microservice/eventmanagementservice/EventServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/config/AuthConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/config/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/dtos/JwtTokenDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/dtos/LoginRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/dtos/LoginResponseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigw/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/apigw/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/event/EventClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/event/EventClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/eventAnalytics/EventAnalysisClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/eventAnalytics/EventAnalysisClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/EventData.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/EventData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/OrderData.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/messagingObjects/OrderData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/ticket/TicketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/ticket/TicketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/user/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/user/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/user/UserClientFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/microservice/clients/user/UserClientFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/clients-kube.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/clients-kube.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/microservice/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/com/microservice/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/EventAnalysingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/EventAnalysingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/controller/EventAnalyticsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/controller/EventAnalyticsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/messaging/MessageListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/messaging/MessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/repository/EventAnalysisRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/repository/EventAnalysisRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/service/EventAnalyticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/java/com/microservice/eventanalysingservice/service/EventAnalyticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-analysing-service/src/test/java/com/microservice/eventanalysingservice/EventAnalysingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-analysing-service/src/test/java/com/microservice/eventanalysingservice/EventAnalysingServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/src/main/java/com/microservice/eventannouncementservice/EventAnnouncementServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/src/main/resources/application-docker.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-announcement-service/src/test/java/com/microservice/eventannouncementservice/EventAnnouncementServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/EventManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/EventManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/messaging/EventMessagingMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/messaging/EventMessagingMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/messaging/publisher/EventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/messaging/publisher/EventPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/models/Event.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/service/EventService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/service/dtos/EventRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/java/com/microservice/eventmanagementservice/service/dtos/EventRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/event-management-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/event-management-service/src/test/java/com/microservice/eventmanagementservice/Demo1ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/GatewayserverApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/GatewayserverApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/filters/FilterUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/filters/FilterUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/filters/RequestTraceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/java/com/eaztbytes/gatewayserver/filters/RequestTraceFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application-docker-kube.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application-docker-kube.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayserver/src/main/resources/application-docker.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayserver/src/main/resources/application-docker.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/messaging/publisher/EventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/messaging/publisher/EventPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/models/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/models/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/repository/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/dto/OrderItemRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/dto/OrderItemRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/dto/OrderRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/example/orderservice/service/dto/OrderRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/OrderServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/test/java/com/example/orderservice/OrderServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-pocessing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-pocessing-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-pocessing-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-pocessing-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment-pocessing-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment-pocessing-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/EventTicketingServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/EventTicketingServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/controller/TicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/TicketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/dtos/TicketDTOAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/dtos/TicketDTOAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/dtos/TicketRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/java/com/microservice/eventticketingservice/service/dtos/TicketRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticketing-service/src/test/java/com/microservice/eventticketingservice/EventTicketingServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ticketing-service/src/test/java/com/microservice/eventticketingservice/EventTicketingServiceApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-management-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/UserManagementServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/UserManagementServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/resources/application-docker.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/resources/application-docker.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/resources/application-kube.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/resources/application-kube.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-management-service/src/test/java/com/example/usermanagementservice/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/test/java/com/example/usermanagementservice/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-management-service/src/main/java/com/example/usermanagementservice/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/demo">
@@ -198,7 +102,7 @@
     "com.google.cloudcode.ide_session_index": "20230524_0007",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "/Users/yohannes/playground/event-ticketing-microservice/apigw/src/main/java/com/example/apigw",
+    "last_opened_file_path": "D:/Academic/MIU/Courses/SA/event-ticketing-microservice/user-management-service/src/main/java/com/example/usermanagementservice/service/dtos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -207,8 +111,9 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "ruby.rails.projectView.checked": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "5ef952424e3d341f42a59ea43fb8bdda",
+    "spring.configuration.checksum": "0a51a0002e6cf5edd208fef115ba3f7a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -224,11 +129,11 @@
       <recent name="com.example.orderservice.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Academic\MIU\Courses\SA\event-ticketing-microservice\user-management-service\src\main\java\com\example\usermanagementservice\service\dtos" />
+      <recent name="D:\Academic\MIU\Courses\SA\event-ticketing-microservice\user-management-service\src\main\java\com\example\usermanagementservice" />
       <recent name="$PROJECT_DIR$/apigw/src/main/java/com/example/apigw" />
       <recent name="$PROJECT_DIR$/gatewayserver/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/apigw/src/main/resources" />
-      <recent name="$PROJECT_DIR$/notification-service/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/k8s/kafka" />
@@ -239,10 +144,11 @@
       <recent name="com.example.usermanagementservice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.usermanagementservice.controller" />
+      <recent name="com.example.usermanagementservice.service" />
       <recent name="com.microservice.clients.messagingObjects" />
       <recent name="com.microservice.clients.eventAnalytics.dto" />
       <recent name="com.microservice.clients.event.dtos.valueObjects" />
-      <recent name="com.microservice.eventanalysingservice.messaging" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.EventAnalyticsServiceTest">
@@ -468,6 +374,7 @@
       <workItem from="1684872628500" duration="13668000" />
       <workItem from="1684895688428" duration="4504000" />
       <workItem from="1684942921674" duration="41581000" />
+      <workItem from="1685027298820" duration="2532000" />
     </task>
     <servers />
   </component>
@@ -479,23 +386,23 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/event_ticketing_microservice$EventServiceTest.ic" NAME="EventServiceTest Coverage Results" MODIFIED="1685018444047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.microservice.eventmanagementservice.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/event_ticketing_microservice$UserServiceTest.ic" NAME="UserServiceTest Coverage Results" MODIFIED="1684339152730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.usermanagementservice.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/event_ticketing_microservice$OrderServiceApplicationTests.ic" NAME="OrderServiceApplicationTests Coverage Results" MODIFIED="1685017606951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.example.orderservice.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/event_ticketing_microservice$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1684337767151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.etm.user.controller_test.*</FILTER>
+    <SUITE FILE_PATH="coverage/event_ticketing_microservice$EventServiceTest.ic" NAME="EventServiceTest Coverage Results" MODIFIED="1685018444047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.microservice.eventmanagementservice.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/event_ticketing_microservice$EventTicketingServiceApplicationTests.ic" NAME="EventTicketingServiceApplicationTests Coverage Results" MODIFIED="1685017056973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.microservice.eventticketingservice.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/event_ticketing_microservice$OrderServiceApplicationTests.ic" NAME="OrderServiceApplicationTests Coverage Results" MODIFIED="1685017606951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.orderservice.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/event_ticketing_microservice$UserManagementServiceApplicationTests.ic" NAME="UserManagementServiceApplicationTests Coverage Results" MODIFIED="1684339027156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.usermanagementservice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/event_ticketing_microservice$ControllerTest.ic" NAME="ControllerTest Coverage Results" MODIFIED="1684337767151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.etm.user.controller_test.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/event_ticketing_microservice$ControllerTest__1_.ic" NAME="ControllerTest Coverage Results" MODIFIED="1684339230920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.usermanagementservice.*</FILTER>
